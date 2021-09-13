@@ -5,6 +5,7 @@ import aryan from './images/Aryan.jpg'
 import suman from './images/suman.jpg'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
+import ananya from './images/Ananya.jpg'
 function Teams() {
     return (
         <div className="container-body">
@@ -74,7 +75,7 @@ function Teams() {
             <div className="first-row">
                 <div className="card">
                     <div className="profile-pic-container">
-                        <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHHbK0gOMFQLA/profile-displayphoto-shrink_200_200/0/1603189342147?e=1637193600&v=beta&t=zSKgPTj4wvGem7zHR2fzR12YLJakqW0S1_gfVEFHxZs" alt="Avatar" className="profile-pic" />
+                        <img src={ananya} alt="Avatar" className="profile-pic" />
                     </div>
                     <div class="container">
                         <h4><b>Ananya Chaterjee</b></h4>
