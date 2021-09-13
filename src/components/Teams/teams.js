@@ -1,10 +1,10 @@
 import React from 'react'
 import './teams.css'
-import utsa from './utsa.jpg'
-import aryan from './Aryan.jpg'
-import suman from './suman.jpg'
-import linkedin from './linkedin.png'
-import github from './github.png'
+import utsa from './images/utsa.jpg'
+import aryan from './images/Aryan.jpg'
+import suman from './images/suman.jpg'
+import linkedin from './images/linkedin.png'
+import github from './images/github.png'
 function Teams() {
     return (
         <div className="container-body">
