@@ -79,7 +79,7 @@ function Teams() {
                     </div>
                     <div class="container">
                         <h4><b>Ananya Chaterjee</b></h4>
-                        <p>PR and Creative Lead</p>
+                        <p>Public Relations and Creative Lead</p>
                         <div className="social-media">
                             <a href="https://www.linkedin.com/in/ananya-chatterjee-416b451ab?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADEc3BIB151CKS5tPxBeFKMhMBaEZVtnUlY&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bl0TjW93kQXSrf%2FMQuVQJrw%3D%3D" alt="Ananya Linkedin" >
                                 <img src={linkedin} alt="Ananya Linkedin" className="linkedin"></img>
@@ -236,7 +236,7 @@ function Teams() {
                             <a href="https://www.linkedin.com/in/aryan-akash-896944123?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB6Sv_IBktIRUUs81jRNDoKMmnjj3mde3j8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJEYbvimATzyQ4%2Fqvh0TBow%3D%3D" alt="Aryan Linkedin" >
                                 <img src={linkedin} alt="Aryan Linkedin" className="linkedin"></img>
                             </a>
-                            <a href="https://github.com/avinashkranjan">
+                            <a href="https://github.com/aryan80akash">
                                 <img src={github} alt="Aryan Github" className="github"></img>
                             </a>
 
