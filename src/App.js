@@ -1,10 +1,9 @@
 import "./App.css";
-import About from "./Components/About/About";
 
 function App() {
   return (
     <div className="App">
-      <About/>
+      <h1>Syntax 2.0</h1>
     </div>
   );
 }
