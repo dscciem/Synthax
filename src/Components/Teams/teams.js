@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import './teams.css'
+import './Teams.css'
 import utsa from './images/utsa.jpg'
 import aryan from './images/Aryan.jpg'
 import suman from './images/suman.jpg'
@@ -216,7 +215,7 @@ function Teams() {
                         <h4><b>Utsa Chakraborty</b></h4>
                         <p>Core Team Member</p>
                         <div className="social-media">
-                            <a alt="Utsa Linkedin" >
+                            <a href="" alt="Utsa Linkedin" >
                                 <img src={linkedin} alt="Utsa Linkedin" className="linkedin"></img>
                             </a>
                             <a href="https://github.com/utsachak">
