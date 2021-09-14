@@ -1,10 +1,10 @@
 import './Teams.css'
-import utsa from './images/utsa.jpg'
-import aryan from './images/Aryan.jpg'
-import suman from './images/suman.jpg'
-import linkedin from './images/linkedin.png'
-import github from './images/github.png'
-import ananya from './images/Ananya.jpg'
+import utsa from './assets/utsa.jpg'
+import aryan from './assets/Aryan.jpg'
+import suman from './assets/suman.jpg'
+import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
+import ananya from './assets/Ananya.jpg'
 function Teams() {
     return (
         <div className="container-body">
