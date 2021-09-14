@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './teams.css'
 import utsa from './images/utsa.jpg'
 import aryan from './images/Aryan.jpg'
@@ -7,12 +7,122 @@ import linkedin from './images/linkedin.png'
 import github from './images/github.png'
 import ananya from './images/Ananya.jpg'
 function Teams() {
+    const contacts = [
+        {
+            "id": "1",
+            "name": "Avinash Ranjan",
+            "position": "GDSC Lead",
+            "image": "https://avatars.githubusercontent.com/u/55796944?v=4",
+            "linkedin": "https://www.linkedin.com/in/avinashkranjan?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAABaySwEBIt2YPcteycgefm3Ctsx0jUxLSeI&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BBQ74yvQoSxeWXpMsw9AzBg%3D%3D",
+            "github": "https://github.com/avinashkranjan"
+        },
+        {
+            "id": "2",
+            "name": "Srijan Gupta",
+            "position": "Tech Lead",
+            "image": "https://avatars.githubusercontent.com/u/66238394?v=4",
+            "linkedin": "https://www.linkedin.com/in/srijankrgupta/",
+            "github": "https://github.com/geekymeeky"
+        },
+        {
+            "id": "3",
+            "name": "Madiha Mallick",
+            "position": "Women in Tech Lead",
+            "image": "https://avatars.githubusercontent.com/u/70858557?v=4",
+            "linkedin": "https://www.linkedin.com/in/madiha-mallick-4410a1207?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADSEIzEBY29jXtV5YGibpxDiINF788yDml8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BEWsfw9q6T4%2BEm5Pt1nR%2BDg%3D%3D",
+            "github": "https://github.com/madihamallick"
+        },
+        {
+            "id": "4",
+            "name": "Ananya Chatterjee",
+            "position": "Public Relations and Creative Lead",
+            "image": "./images/Ananya.jpg",
+            "linkedin": "https://www.linkedin.com/in/ananya-chatterjee-416b451ab?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADEc3BIB151CKS5tPxBeFKMhMBaEZVtnUlY&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bl0TjW93kQXSrf%2FMQuVQJrw%3D%3D",
+            "github": "https://github.com/Ananya-012"
+        },
+        {
+            "id": "5",
+            "name": "Abir Bhattacharya",
+            "position": "Competitive Coding Lead",
+            "image": "https://avatars.githubusercontent.com/u/70687014?v=4",
+            "linkedin": "https://www.linkedin.com/in/abir-bhattacharya-6982551a9?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADCf4pQBQf0tmz4JoLXZdqmpenKqmgevu34&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3Bqp4m%2FwC0QxaDUSMOWvxCMA%3D%3D",
+            "github": "https://github.com/abirbhattacharya82"
+        },
+        {
+            "id": "6",
+            "name": "Shashank Ranjan",
+            "position": "Outreach Lead",
+            "image": "https://scontent.fccu3-1.fna.fbcdn.net/v/t1.6435-9/67432988_2372492119664895_765072883897597952_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=174925&_nc_ohc=6vVWohZ-_68AX8zFqZx&_nc_ht=scontent.fccu3-1.fna&oh=ada21796b939c7ab457572835da53938&oe=6163B586",
+            "linkedin": "https://www.linkedin.com/in/shashank-ranjan-318485149?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACPX64QBgABrHiczubc8fcHzoYo98umm1e4&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BLHZSv4GQRDKwV%2Bmb%2B8TU9w%3D%3D",
+            "github": "https://github.com/Shashankranjan-dev"
+        },
+        {
+            "id": "7",
+            "name": "Suman Choubey",
+            "position": "Core Team Member",
+            "image": "./images/suman.jpg",
+            "linkedin": "https://www.linkedin.com/in/suman-choubey-630949219?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADcigEQBaclRl_GX9BJ5RM5vIU1yXLuL_aE&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BR2erH%2BTFQJayJ668ekz28w%3D%3D",
+            "github": "https://github.com/suman2662021"
+        },
+        {
+            "id": "8",
+            "name": "Mrigank Choudhury",
+            "position": "Core Team Member",
+            "image": "https://media-exp1.licdn.com/dms/image/C5603AQHADHhaG-fozQ/profile-displayphoto-shrink_200_200/0/1630738982439?e=1637193600&v=beta&t=N5HUkl4XBoN6fskKALQbjqEG9DezG7khm59uSBzTuY0",
+            "linkedin": "https://www.linkedin.com/in/mrigank-choudhary-712265199?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC59c74BUlAtu-8m0O-vCjcbPZuRl47OqUM&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BOvj5UGAySjybkqjBftTgHQ%3D%3D",
+            "github": "https://github.com/mrigankchoudhary"
+        },
+        {
+            "id": "9",
+            "name": "Hasibul Islam Sazzad",
+            "position": "Core Team Member",
+            "image": "https://media-exp1.licdn.com/dms/image/C5603AQHpDNCY7YswZQ/profile-displayphoto-shrink_800_800/0/1597464677078?e=1637193600&v=beta&t=cYAWFEtBeHFdeXh4f1w9iOsRj-EgHt7PuFUQDWvHCL0",
+            "linkedin": "https://www.linkedin.com/in/hasibul12?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAC4Cn-IBHb6FApyNxVan-qjm1cc0LsQ7f1A&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BLENeQVn2Rk6NAMj9q%2BoOeA%3D%3D",
+            "github": "https://github.com/hasibul9303"
+        },
+        {
+            "id": "10",
+            "name": "Manidipa Bhattacharjee",
+            "position": "Core Team Member",
+            "image": "https://media-exp1.licdn.com/dms/image/C4E03AQHSaJ8sOolu4Q/profile-displayphoto-shrink_800_800/0/1624517563406?e=1637193600&v=beta&t=qc24_rPI8C2Kl6QEGEQM51bRFRxq8QZiOasajWk2jIw",
+            "linkedin": "https://www.linkedin.com/in/manidipa-bhattacharjee-510a081b7?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAADKEYNwBQV7_Qex__BwNPgwVNwSqHPnk1Q8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B87pPcTBQTlGqCcyKMSXdYA%3D%3D",
+            "github": "https://github.com/Manidipaaa"
+        },
+        {
+            "id": "11",
+            "name": "Utsa Chakraborty",
+            "position": "Core Team Member",
+            "image": "./images/utsa.jpg",
+            "linkedin": "",
+            "github": "https://github.com/utsachak"
+        },
+        {
+            "id": "12",
+            "name": "Aryan Akash",
+            "position": "Core Team Member",
+            "image": "./images/Aryan.jpg",
+            "linkedin": "https://www.linkedin.com/in/aryan-akash-896944123?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAAB6Sv_IBktIRUUs81jRNDoKMmnjj3mde3j8&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3BJEYbvimATzyQ4%2Fqvh0TBow%3D%3D",
+            "github": "https://github.com/aryan80akash"
+        },
+        {
+            "id": "13",
+            "name": "Subhradeep Samanta",
+            "position": "Core Team Member",
+            "image": "https://avatars.githubusercontent.com/u/70656957?v=4",
+            "linkedin": "https://www.linkedin.com/in/subhradeep-samanta-85236a203/",
+            "github": "https://github.com/Subhradeep10"
+        }
+    ]
+
     return (
         <div className="container-body">
-            <div>
-                <h1 className="teams">Teams</h1>
+            <div className="heading">
+                <h1 className="teams">
+                    Teams
+                    <hr />
+                </h1>
             </div>
-            <hr />
+
             <div className="first-row">
                 <div className="card">
                     <div className="profile-pic-container">
