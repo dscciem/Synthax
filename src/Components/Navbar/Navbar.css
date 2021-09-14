@@ -1,0 +1,26 @@
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 20%;
+}
+
+.nav-item {
+  grid-area: 1 / 2 / 2 / 10;
+}
+.nav-item > ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #8b231c;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
