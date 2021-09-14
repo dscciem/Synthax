@@ -1,11 +1,10 @@
-import React, { useState } from 'react'
-import './teams.css'
-import utsa from './images/utsa.jpg'
-import aryan from './images/Aryan.jpg'
-import suman from './images/suman.jpg'
-import linkedin from './images/linkedin.png'
-import github from './images/github.png'
-import ananya from './images/Ananya.jpg'
+import './Teams.css'
+import utsa from './assets/utsa.jpg'
+import aryan from './assets/Aryan.jpg'
+import suman from './assets/suman.jpg'
+import linkedin from './assets/linkedin.png'
+import github from './assets/github.png'
+import ananya from './assets/Ananya.jpg'
 function Teams() {
     return (
         <div className="container-body">
@@ -216,7 +215,7 @@ function Teams() {
                         <h4><b>Utsa Chakraborty</b></h4>
                         <p>Core Team Member</p>
                         <div className="social-media">
-                            <a alt="Utsa Linkedin" >
+                            <a href="" alt="Utsa Linkedin" >
                                 <img src={linkedin} alt="Utsa Linkedin" className="linkedin"></img>
                             </a>
                             <a href="https://github.com/utsachak">

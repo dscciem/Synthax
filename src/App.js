@@ -1,10 +1,14 @@
 import "./App.css";
-import Teams from "./components/Teams/teams";
+import Navbar from './Components/Navbar/Navbar'
+import Banner from './Components/Banner/Banner'
+import Teams from './Components/Teams/Teams'
 
 function App() {
   return (
     <div className="App">
-      <Teams />
+     <Navbar/>
+     <Banner />
+ 
     </div>
   );
 }
