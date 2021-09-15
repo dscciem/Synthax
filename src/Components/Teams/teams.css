@@ -52,6 +52,8 @@ hr{
 }
 .container{
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .card {
     position: relative;

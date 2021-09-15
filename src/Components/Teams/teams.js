@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './teams.css'
 import utsa from './images/utsa.jpg'
 import aryan from './images/Aryan.jpg'

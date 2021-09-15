@@ -1,0 +1,73 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 90vh;
+  padding-top: 2.9rem;
+}
+
+.left {
+  grid-area: 1 / 1 / 6 / 2;
+  justify-self: center;
+}
+.right {
+  grid-area: 1 / 2 / 6 / 3;
+  padding-top: 3rem;
+}
+.wrapper {
+  text-align: center;
+  margin-top: 10rem;
+  line-height: 1rem;
+  font-size: 1.3rem;
+  color: #f9a628;
+}
+.wrapper > h1 {
+  font-family: "Poppins", sans-serif;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.wrapper h2:last-child {
+  font-family: "Courier New", Courier, monospace;
+}
+.btn__wrapper {
+  margin-top: 7rem;
+}
+.btn {
+  background-color: #b5511f;
+  color: #ffffff;
+  padding: 1.2rem 5rem;
+  border-radius: 2rem;
+  margin: 0rem 1rem;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.3s ease-in;
+}
+.btn__wrapper a:last-child {
+  color: #b5511f;
+  background-color: #ffffff;
+  border-radius: 2rem;
+}
+
+.btn:hover {
+  filter: drop-shadow(0px 8px 8px rgba(0, 0, 0, 0.25));
+}
+.discord_btn {
+  position: relative;
+}
+.btn_discord {
+  position: absolute;
+  right: 70%;
+  top: 28%;
+}
+.btn_discord + span {
+  padding-left: 2ch;
+}
+.avatar {
+  height: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
