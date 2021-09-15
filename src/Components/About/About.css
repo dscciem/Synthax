@@ -1,18 +1,25 @@
-.container {
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,100&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Glory:ital,wght@1,100&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap");
+
+.about__container {
   display: flex;
   justify-content: center;
   background: #f9f9f9;
+  position: relative;
 }
 
-.container1 {
+.about__container1 {
   display: flex;
   flex-direction: column;
   background: #f9f9f9;
   padding-left: 50px;
   padding-right: 50px;
+  height: 100vh;
 }
 
-.content {
+.about__content {
   position: relative;
   top: -32rem;
   font-family: "Gothic A1", sans-serif;
@@ -21,7 +28,7 @@
   text-align: left;
 }
 
-.heading {
+.about__heading {
   height: 67px;
   width: 100%;
   font-family: "Glory", sans-serif;
@@ -31,17 +38,15 @@
   text-align: center;
   line-height: 91px;
   color: #8b231c;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+.about__line {
+  position: absolute;
+  top: auto;
 }
 
-#line {
-  width: 436.5px;
-  margin-top: 4rem;
-  align-items: center;
-  border: 4px solid #f9a628;
-}
-
-.body {
+.about__body {
   width: 80rem;
   height: 535px;
 }
-

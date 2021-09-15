@@ -3,6 +3,9 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Banner from "./Components/Banner/Banner";
 import Teams from "./Components/Teams/Teams";
+import Timeline from "./Components/Timeline/Timeline";
+import About from "./Components/About/About";
+import Faq from "./Components/Faq/Faq";
 
 function App() {
   return (
@@ -15,7 +18,10 @@ function App() {
         <Switch>
           <Route path="/">
             <Banner />
+            <About />
+            <Timeline />
             <Teams />
+            <Faq />
           </Route>
         </Switch>
       </Router>

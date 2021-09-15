@@ -1,0 +1,66 @@
+.faq__heading {
+  margin: 0rem 5rem;
+}
+.faq__wrapper {
+  margin-top: 8rem;
+}
+
+.faq__heading > h2 {
+  color: #8b231c;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.faq__main_container {
+  width: 100%;
+  background-color: #f9f9f9;
+  font-family: "Poppins";
+}
+
+.faq__container {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.faq__accordion__header {
+  font-size: 1.8rem;
+  background-color: #f9cf90;
+  border: 1px solid #f9cf90;
+  border-bottom-width: 0px;
+  color: black;
+  cursor: pointer;
+}
+
+.faq__accordion__content > p {
+  font-size: 1.8rem;
+}
+
+.faq__accordion__header:hover {
+  background-color: rgb(231, 152, 33);
+  color: white;
+}
+
+.faq__arrow {
+  position: absolute;
+  height: 30px;
+  margin-top: -4px;
+  top: 50%;
+  right: 40px;
+  width: 2.5rem;
+}
+
+.faq__accordion__content {
+  background-color: white;
+  border: 1px solid rgb(241, 195, 69);
+
+  padding: 20px;
+}
+
+.faq__line {
+  position: absolute;
+  top: auto;
+}
