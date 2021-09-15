@@ -5,7 +5,7 @@
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  height: 20%;
+  height: 5rem;
   z-index: 999;
   width: 100%;
 }
@@ -26,4 +26,10 @@
   color: #8b231c;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
+}
+.dark {
+  background-color: #b5511f;
+}
+.darkText {
+  color: #f9f9f9;
 }

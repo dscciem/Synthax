@@ -1,51 +1,39 @@
 import React from "react";
 import "./Navbar.css";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [nav, setNav] = useState([]);
+  const navItems = [
+    "Home",
+    "About",
+    "Timeline",
+    "Projects",
+    "Prizes",
+    "Sponsors",
+    "FAQs",
+  ];
+  const controlNavbar = () => {
+    window.scrollY > 100 ? setNav(["dark", "darkText"]) : setNav([" ", " "]);
+  };
+
+  useEffect(() => {
+    const listener = window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", listener);
+    };
+  }, []);
   return (
-    <div className="navbar">
+    <div className={"navbar " + nav[0]}>
       <nav className="nav-item">
         <ul>
-          <li>
-            <a href="#" className="nav-link">
-              Home
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              About
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              Timeline
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              Team
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              Projects
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              Prizes
-            </a>
-          </li>
-          <li>
-            <a href="#" className="nav-link">
-              Sponsors
-            </a>
-          </li>
-          <li>
-            <a href="" className="nav-link">
-              FAQs
-            </a>
-          </li>
+          {navItems.map((item) => (
+            <li>
+              <a href="#" className={"nav-link " + nav[1]}>
+                {item}
+              </a>
+            </li>
+          ))}
         </ul>
       </nav>
     </div>
