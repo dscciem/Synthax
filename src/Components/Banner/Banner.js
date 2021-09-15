@@ -5,25 +5,30 @@ import DiscordLogo from "./assets/Discord.svg";
 
 const Banner = () => {
   return (
-    <div className="parent">
-      <div className="left">
-        <div className="wrapper">
+    <div className="banner__parent" id="Home">
+      <div className="banner__left">
+        <div className="banner__wrapper">
           <h1>Synthax 2.0</h1>
           <br />
           <h2>30 Sep. - Oct. 2021</h2>
         </div>
-        <div className="btn__wrapper">
-          <a href="#" className="btn">
+        <div className="banner__btn__wrapper">
+          <a href="#" className="banner__btn">
             Register
           </a>
-          <a href="#" className="btn discord__btn">
-            <img src={DiscordLogo} height="25" className="btn_discord" alt="" />
+          <a href="#" className="banner__btn discord__btn">
+            <img
+              src={DiscordLogo}
+              height="25"
+              className="banner__btn_discord"
+              alt=""
+            />
             <span>Join Us</span>
           </a>
         </div>
       </div>
-      <div className="right">
-        <img src={Hero} alt="" className="avatar" />
+      <div className="banner__right">
+        <img src={Hero} alt="" className="banner__avatar" />
       </div>
     </div>
   );
