@@ -8,6 +8,7 @@ const Navbar = () => {
     "Home",
     "About",
     "Timeline",
+    "Teams",
     "Projects",
     "Prizes",
     "Sponsors",
@@ -28,8 +29,8 @@ const Navbar = () => {
       <nav className="nav-item">
         <ul>
           {navItems.map((item) => (
-            <li>
-              <a href="#" className={"nav-link " + nav[1]}>
+            <li key={item}>
+              <a href={"#" + item} className={"nav-link " + nav[1]}>
                 {item}
               </a>
             </li>
