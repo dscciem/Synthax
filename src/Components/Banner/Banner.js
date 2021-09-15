@@ -13,7 +13,12 @@ const Banner = () => {
           <h2>30 Sep. - Oct. 2021</h2>
         </div>
         <div className="banner__btn__wrapper">
-          <a href="#" className="banner__btn">
+          <a
+            href="https://linktr.ee/dscciem"
+            rel="noreferrer"
+            target="_blank"
+            className="banner__btn"
+          >
             Register
           </a>
           <a href="#" className="banner__btn discord__btn">
