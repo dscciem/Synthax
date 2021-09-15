@@ -1,146 +1,189 @@
-.container-body{
+.teams__container-body {
+  position: relative;
+  width: 100%;
+  height: 280vh;
+  background: #f9f9f9;
+  font-family: "Poppins", sans-serif;
+}
+
+.teams__teams {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 91px;
+  text-align: center;
+  color: #8b231c;
+}
+
+.teams__heading {
+  display: flex;
+  position: relative;
+}
+
+.teams__profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  justify-content: center;
+  position: relative;
+}
+.teams__profile-pic-container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  left: 50%;
+}
+.teams__container {
+  text-align: center;
+}
+.teams__card {
+  position: relative;
+  width: 250px;
+  height: auto;
+  top: 283px;
+  padding: 10px;
+
+  background: #f9f9f9;
+  box-shadow: 4.02px 0px 22.15px 8.07px #f9cf90;
+  border-radius: 22.2675px;
+  transition: 1s;
+}
+.teams__card:hover {
+  transform: scale(1.1);
+}
+.teams__first-row {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.teams__social-media {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6%;
+}
+.teams__linkedin {
+  height: 45px;
+  width: 45px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+.teams__github {
+  height: 45px;
+  width: 45px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) and (min-width: 768px) {
+  .container-body {
     position: relative;
     width: 100%;
-    height: 280vh;
-    background: #F9F9F9;
-}
+    height: 250vh;
 
+    background: #f9f9f9;
+  }
+  .card {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    top: 216px;
+    padding: 10px;
 
-.teams{
+    background: #f9f9f9;
+    box-shadow: 4.02px 0px 22.15px 8.07px #f9cf90;
+    border-radius: 22.2675px;
+    transition: 1s;
+  }
+  .teams {
     position: absolute;
     text-align: center;
     width: 100%;
 
-
-    font-family: 'Poppins';
+    font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 91px;
     text-align: center;
-    color: #8B231C;
-}
-
-
-hr{
+    color: #8b231c;
+  }
+  hr {
     position: absolute;
-    width: 30%;
-    left: 35%;
+    width: 25%;
+    left: 38%;
     align-items: center;
     justify-content: center;
     top: 62%;
-    border: 4px solid #F9A628;
+    border: 4px solid #f9a628;
+  }
 }
-
-.heading{
-    display: flex;
+@media (max-width: 768px) and (min-width: 320px) {
+  .container-body {
     position: relative;
-}
+    width: 100%;
+    height: 700vh;
 
-.profile-pic{ 
-    height: 100px;
-    width: 100px;
+    background: #f9f9f9;
+  }
+  hr {
+    position: absolute;
+    width: 44%;
+    left: 28%;
+    align-items: center;
+    justify-content: center;
+    top: 57.8%;
+    border: 4px solid #f9a628;
+  }
+  .card {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 150px;
+    padding: 33px;
+    margin-bottom: 20%;
+    background: #f9f9f9;
+    box-shadow: 4.02px 0px 22.15px 8.07px #f9cf90;
+    border-radius: 22.2675px;
+    transition: 1s;
+  }
+  .profile-pic {
+    height: 70px;
+    width: 70px;
     border-radius: 100%;
     justify-content: center;
     position: relative;
-}
-.profile-pic-container{
-    align-items: center;
-    justify-content: center;
+  }
+  .first-row {
     display: flex;
-    left: 50%;
-}
-.container{
-    text-align: center;
-}
-.card {
-    position: relative;
-    width: 389px;
-    height: 338px;
-    top: 283px;
-    padding: 10px;
-
-    background: #F9F9F9;
-    box-shadow: 4.02px 0px 22.15px 8.07px #F9CF90;
-    border-radius: 22.2675px;
-    transition: 1s;
-
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.first-row{
-    display: flex;
-    flex: 1;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 5%;
+
     padding-left: 1%;
     padding-right: 1%;
-}
-.social-media{
+  }
+  .teams {
+    position: absolute;
+    text-align: center;
     width: 100%;
-    justify-content: space-between;
-    align-items:center;
-    padding-top: 6%;
-}
-.linkedin{
-    height: 45px;
-    width: 45px;
-    padding-right: 20px;
-    cursor: pointer;
-}
-.github{
-    height: 45px;
-    width: 45px;
-    padding-left: 15px;
-    cursor: pointer;
-}
 
-@media (max-width: 1440px) and  (min-width: 768px){
-    .container-body{
-        position: relative;
-        width: 100%;
-        height: 250vh;
-    
-        background: #F9F9F9;
-    }
-    .card {
-        position: relative;
-        width: 250px;
-        height: 250px;
-        top: 216px;
-        padding: 10px;
-    
-        background: #F9F9F9;
-        box-shadow: 4.02px 0px 22.15px 8.07px #F9CF90;
-        border-radius: 22.2675px;
-        transition: 1s;
-    
-    }
-    .teams{
-        position: absolute;
-        text-align: center;
-        width: 100%;
-    
-    
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: bold;
-        font-size: 2rem;
-        line-height: 91px;
-        text-align: center;
-        color: #8B231C;
-    }
-    hr{
-        position: absolute;
-        width: 25%;
-        left: 38%;
-        align-items: center;
-        justify-content: center;
-        top: 62%;
-        border: 4px solid #F9A628;
-    }
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 91px;
+    text-align: center;
+    color: #8b231c;
+  }
 }
 @media (max-width: 768px) and (min-width: 320px){
     .container-body{
@@ -203,3 +246,4 @@ hr{
         color: #8B231C;
     }
 }
+
