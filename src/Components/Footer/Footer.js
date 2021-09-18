@@ -4,20 +4,12 @@ import Logo from "./Logo.png";
 import Social from "../Social/Social";
 
 const Footer = () => {
-  const navItems = [
-    "Home",
-    "About",
-    "Timeline",
-    "Teams",
-    "Projects",
-    "Prizes",
-    "Sponsors",
-    "FAQs",
-  ];
+  const navItems = ["Home", "Projects", "Prizes", "Sponsors", "FAQs"];
   return (
     <footer
-      className="h-auto grid grid-cols-12 grid-flow-row items-center pt-6 bg-gray-light"
+      className="h-auto grid grid-cols-12 grid-flow-row items-center pt-6"
       id="Footer"
+      style={{ marginTop: "100px" }}
     >
       <div className="col-span-8 grid grid-cols-3 grid-flow-row self-start">
         {navItems.map((item) => (

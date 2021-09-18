@@ -3,6 +3,7 @@ import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Banner from "./Components/Banner/Banner";
 import Teams from "./Components/Teams/Teams";
+// import Speaker from "./Components/Speaker/Speaker";
 import Timeline from "./Components/Timeline/Timeline";
 import About from "./Components/About/About";
 import Faq from "./Components/Faq/Faq";
@@ -18,12 +19,12 @@ function App() {
         </Switch>
         <Switch>
           <Route path="/">
-            {/* <Banner /> */}
+            <Banner />
             <About />
             <Timeline />
-            <Teams />
-            <Speaker />
             <Faq />
+            <Teams />
+            {/* <Speaker /> */}
           </Route>
         </Switch>
         <Footer />

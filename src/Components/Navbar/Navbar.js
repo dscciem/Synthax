@@ -1,19 +1,9 @@
 import React from "react";
-import "./Navbar.css";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
   const [nav, setNav] = useState("");
-  const navItems = [
-    "Home",
-    "About",
-    "Timeline",
-    "Teams",
-    "Projects",
-    "Prizes",
-    "Sponsors",
-    "FAQs",
-  ];
+  const navItems = ["Home", "Projects", "Prizes", "Sponsors", "FAQs"];
   const controlNavbar = () => {
     window.scrollY > 100
       ? setNav("bg-brown-light text-white-light")
@@ -27,9 +17,9 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={`p-5 w-screen fixed ${nav}`}>
+    <div className={`p-5 w-screen fixed ${nav}`} style={{ zIndex: "1" }}>
       <nav>
-        <ul className="flex">
+        <ul className="flex" style={{ width: "50%", margin: "0 auto" }}>
           {navItems.map((item) => (
             <li
               key={item}
