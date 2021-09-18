@@ -16,7 +16,7 @@ const Footer = () => {
   ];
   return (
     <footer
-      className="h-96 grid grid-cols-12 grid-flow-row items-center pt-6 bg-gray-light"
+      className="h-auto grid grid-cols-12 grid-flow-row items-center pt-6 bg-gray-light"
       id="Footer"
     >
       <div className="col-span-8 grid grid-cols-3 grid-flow-row self-start">

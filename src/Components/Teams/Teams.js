@@ -10,7 +10,14 @@ const Teams = () => {
       <div class="grid grid-cols-4 gap-4 grid-flow-row px-8 py-10">
         {TeamDetails.map(
           ({ name, position, imgUrl, linkedinUrl, githubUrl }) => (
-            <Card name={name} key={name} position={position} imgUrl={imgUrl} />
+            <Card
+              name={name}
+              key={name}
+              position={position}
+              imgUrl={imgUrl}
+              linkedinUrl={linkedinUrl}
+              githubUrl={githubUrl}
+            />
           )
         )}
       </div>
