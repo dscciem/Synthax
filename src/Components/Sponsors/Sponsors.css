@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+.head{
+    position: absolute;
+width: 711px;
+height: 67px;
+left: 365px;
+top: 36px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-align: center;
+
+color: #8B231C;
+}
+.line{
+     position: absolute;
+    width: 590px;
+    height: 2px;
+    left: 414px;
+    top: 130px;
+    
+    background: #F8CA85;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
