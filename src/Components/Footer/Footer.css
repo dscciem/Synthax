@@ -1,0 +1,7 @@
+#Footer {
+  background-image: url("./Background.svg");
+  background-position: left;
+  background-position-y: 5ch;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

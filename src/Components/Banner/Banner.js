@@ -6,13 +6,11 @@ import BannerImage from "./assets/banner.svg";
 
 const Banner = () => {
   return (
-    <section className="flex py-24 bg-gray-light items-center justify-center">
-      <div className="flex-1 flex items-center justify-center">
-        <div className="flex-1 flex">
-          <img src={BannerImage} alt="" width="80%" />
-        </div>
+    <section className="grid grid-cols-2 grid-flow-col py-24 bg-gray-light place-items-center">
+      <div className="col-span-1 self-start flex flex-col justify-start items-center">
+        <img src={BannerImage} alt="" width="70%" />
       </div>
-      <div className="flex-1 items-center">
+      <div className="col-span-1">
         <img src={Hero} alt="" />
       </div>
     </section>

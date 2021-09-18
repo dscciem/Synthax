@@ -5,7 +5,7 @@ import Heading from "../Heading/Heading";
 
 const Timeline = () => {
   return (
-    <div className="Timeline_wrapper" id="Timeline">
+    <div className="Timeline_wrapper font-sans" id="Timeline">
       <Heading title="Timeline" lineWidth="1/5" />
 
       <div className="main">

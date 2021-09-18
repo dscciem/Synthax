@@ -6,6 +6,7 @@ import Teams from "./Components/Teams/Teams";
 import Timeline from "./Components/Timeline/Timeline";
 import About from "./Components/About/About";
 import Faq from "./Components/Faq/Faq";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Faq />
           </Route>
         </Switch>
+        <Footer />
       </Router>
     </div>
   );
