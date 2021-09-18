@@ -17,6 +17,9 @@ module.exports = {
         light: "#ffffff",
       },
     },
+    fontFamily: {
+      sans: ["Poppins", "sans-serif"],
+    },
     extend: {},
   },
   variants: {
