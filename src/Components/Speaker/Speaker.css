@@ -45,7 +45,8 @@
     width: 250px;
     height: auto;
     top: 283px;
-    padding: 10px;
+    padding: 15px;
+    margin: 40px;
   
     background: #f9f9f9;
     box-shadow: 4.02px 0px 22.15px 8.07px #f9cf90;
@@ -58,6 +59,7 @@
   .Speakers__first-row {
     display: flex;
     flex: 1;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-bottom: 5%;
