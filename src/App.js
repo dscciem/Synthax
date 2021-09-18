@@ -18,11 +18,11 @@ function App() {
         </Switch>
         <Switch>
           <Route path="/">
-            {/* <Banner /> */}
+            <Banner /> 
             <About />
             <Timeline />
             <Teams />
-            <Speaker />
+            {/*<Speaker />*/}
             <Faq />
           </Route>
         </Switch>

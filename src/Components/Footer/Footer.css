@@ -5,3 +5,14 @@
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+#socials{
+  padding-bottom: 15px;
+}
+
+#copyright{
+  position: relative;
+  top: 17rem;
+  padding-left: 1rem;
+  font-weight: 600;
+}

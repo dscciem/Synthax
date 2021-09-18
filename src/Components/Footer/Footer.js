@@ -28,15 +28,19 @@ const Footer = () => {
             {item}
           </div>
         ))}
+        <p className="col-span-3" id="copyright" >
+          Copyright © 2021 GDSC-CIEM. All rights reserved.</p>
       </div>
       <div className="col-span-4 grid grid-rows-2 place-items-end">
         <img
           src={Logo}
           alt=""
-          className="w-1/3 justify-self-center self-center ml-44"
+          className="w-1/2 justify-self-center self-center ml-44"
         />
-        <div className="justify-self-end self-end">
-          <Social className="" />
+        <div className="justify-self-end self-end" id="socials">
+          <Social twitterUrl="https://twitter.com/dscciem"
+            linkedinUrl="https://www.linkedin.com/company/gdsc-ciem"
+            instaUrl="https://www.instagram.com/dscciem/" />
         </div>
       </div>
     </footer>
