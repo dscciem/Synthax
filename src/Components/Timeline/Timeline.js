@@ -1,6 +1,6 @@
 import React from "react";
-
 import "./Timeline.css";
+import Schedule from "./timeline.json";
 
 const Timeline = () => {
   return (
@@ -15,30 +15,14 @@ const Timeline = () => {
       <div className="main">
         <div className="timeline">
           <ul>
-            <li>
-              <div className="timeline-content">
-                <h3 className="date">14th sept - 23rd sept</h3>
-                <p>Project Admin Registration</p>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-content">
-                <h3 className="date">19th sept - 30th sept</h3>
-                <p>Project Contributors registration</p>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-content">
-                <h3 className="date">27th sept</h3>
-                <p>Program begins</p>
-              </div>
-            </li>
-            <li>
-              <div className="timeline-content">
-                <h3 className="date">30th oct</h3>
-                <p>Program Ends</p>
-              </div>
-            </li>
+            {Schedule.map(({ name, period }) => (
+              <li>
+                <div className="timeline-content">
+                  <h3 className="date">{period}</h3>
+                  <p>{name}</p>
+                </div>
+              </li>
+            ))}
           </ul>
         </div>
       </div>
