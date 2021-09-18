@@ -1,16 +1,12 @@
 import React from "react";
 import "./Timeline.css";
 import Schedule from "./timeline.json";
+import Heading from "../Heading/Heading";
 
 const Timeline = () => {
   return (
-    <div className="Timeline_wrapper" id="Timeline">
-      <div className="head">
-        <div className="Timeline_head">
-          <h2 className="heading">Timeline</h2>
-          <hr className="liness"></hr>
-        </div>
-      </div>
+    <div className="Timeline_wrapper font-sans" id="Timeline">
+      <Heading title="Timeline" lineWidth="1/5" />
 
       <div className="main">
         <div className="timeline">

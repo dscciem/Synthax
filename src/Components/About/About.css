@@ -1,51 +1,5 @@
-.about__container {
-  display: flex;
-  justify-content: center;
-  background: #f9f9f9;
-  position: relative;
-}
 
-.about__container1 {
-  display: flex;
-  flex-direction: column;
-  background: #f9f9f9;
-  padding-left: 50px;
-  padding-right: 50px;
-  height: 100vh;
-}
-
-.about__content {
-  position: relative;
-  top: -32rem;
-  font-family: "Gothic A1", sans-serif;
-  font-size: 33px;
-  line-height: 45px;
-  text-align: left;
-}
-
-.about__heading {
-  height: 67px;
-  font-family: "Glory", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-size: 60.95px;
-  font-weight: 600;
-  text-align: center;
-  line-height: 91px;
-  color: #8b231c;
-  margin: 0;
-  padding-bottom: 2rem;
-}
-.about__line {
-  position: absolute;
-  top: auto;
-}
-
-.about__body {
-  width: 80rem;
-  height: 535px;
-}
-@media (max-width: 768px) and (min-width: 320px){
-  .about__wrapper{
-    height: 100vh;
-  }
-}
+#About {
+  background-image: url(./asset/gdsc.svg);
+  background-position: center;
+  background-size: cover;

@@ -1,41 +1,27 @@
 import React from "react";
 import Hero from "./assets/Hero.svg";
-import "./Banner.css";
 import DiscordLogo from "./assets/Discord.svg";
+import BannerImage from "./assets/banner.svg";
 
 const Banner = () => {
   return (
-    <div className="banner__parent" id="Home">
-      <div className="banner__left">
-        <div className="banner__wrapper">
-          <h1>Synthax 2.0</h1>
-          <br />
-          <h2>30 Sep. - Oct. 2021</h2>
-        </div>
-        <div className="banner__btn__wrapper">
-          <a
-            href="https://linktr.ee/dscciem"
-            rel="noreferrer"
-            target="_blank"
-            className="banner__btn"
-          >
-            Register
-          </a>
-          <a href="#" className="banner__btn discord__btn">
-            <img
-              src={DiscordLogo}
-              height="25"
-              className="banner__btn_discord"
-              alt=""
-            />
-            <span>Join Us</span>
-          </a>
+    <section className="grid grid-cols-2 grid-flow-col py-24 bg-gray-light place-items-center">
+      <div className="col-span-1 self-start flex flex-col justify-start items-center">
+        <img src={BannerImage} alt="" width="70%" />
+        <div className="flex flex-1 mt-10">
+          <button class="text-white-light bg-brown-light mx-2 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl">
+            <span className="px-4">Register</span>
+          </button>
+          <button class="text-brown-light mx-2 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl">
+            <img src={DiscordLogo} alt="Discord Button" className="w-12" />
+            <span className="px-4">Join us</span>
+          </button>
         </div>
       </div>
-      <div className="banner__right">
-        <img src={Hero} alt="" className="banner__avatar" />
+      <div className="col-span-1">
+        <img src={Hero} alt="" />
       </div>
-    </div>
+    </section>
   );
 };
 
