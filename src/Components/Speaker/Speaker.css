@@ -1,7 +1,7 @@
 .Speakers__container-body {
     position: relative;
     width: 100%;
-    height: 170vh;
+    height: 250vh;
     background: #f9f9f9;
     font-family: "Poppins", sans-serif;
   }
@@ -46,7 +46,7 @@
     height: auto;
     top: 283px;
     padding: 15px;
-    margin: 40px;
+    margin: 60px;
   
     background: #f9f9f9;
     box-shadow: 4.02px 0px 22.15px 8.07px #f9cf90;
@@ -188,10 +188,10 @@
     }
   }
   @media (max-width: 768px) and (min-width: 320px){
-      .container-body{
+      .Speakers__container-body{
           position: relative;
           width: 100%;
-          height: 700vh;
+          height: 800vh;
       
           background: #F9F9F9;
       }

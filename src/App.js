@@ -18,7 +18,7 @@ function App() {
         </Switch>
         <Switch>
           <Route path="/">
-            <Banner />
+            {/* <Banner /> */}
             <About />
             <Timeline />
             <Teams />
