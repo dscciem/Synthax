@@ -6,6 +6,7 @@ import Teams from "./Components/Teams/Teams";
 import Timeline from "./Components/Timeline/Timeline";
 import About from "./Components/About/About";
 import Faq from "./Components/Faq/Faq";
+import Speaker from "./Components/Speaker/Speaker"
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
         </Switch>
         <Switch>
           <Route path="/">
-            <Banner />
+            {/* <Banner /> */}
             <About />
             <Timeline />
             <Teams />
+            <Speaker />
             <Faq />
           </Route>
         </Switch>

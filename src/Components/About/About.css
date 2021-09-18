@@ -25,7 +25,6 @@
 
 .about__heading {
   height: 67px;
-  width: 100%;
   font-family: "Glory", sans-serif;
   font-family: "Poppins", sans-serif;
   font-size: 60.95px;
@@ -44,4 +43,9 @@
 .about__body {
   width: 80rem;
   height: 535px;
+}
+@media (max-width: 768px) and (min-width: 320px){
+  .about__wrapper{
+    height: 100vh;
+  }
 }
