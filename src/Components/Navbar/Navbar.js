@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [nav, setNav] = useState([]);
+  const [nav, setNav] = useState("");
   const navItems = [
     "Home",
     "About",
@@ -15,7 +15,9 @@ const Navbar = () => {
     "FAQs",
   ];
   const controlNavbar = () => {
-    window.scrollY > 100 ? setNav(["dark", "darkText"]) : setNav([" ", " "]);
+    window.scrollY > 100
+      ? setNav("bg-brown-light text-white-light")
+      : setNav("bg-gray-light text-brown-light");
   };
 
   useEffect(() => {
@@ -25,16 +27,15 @@ const Navbar = () => {
     };
   }, []);
   return (
-    <div className={"navbar " + nav[0]}>
-      <nav className="nav-item">
-        <ul>
+    <div className={`p-5 w-screen fixed ${nav}`}>
+      <nav>
+        <ul className="flex">
           {navItems.map((item) => (
-
-            <li key={item}>
-              <a href={"#" + item} className={"nav-link " + nav[1]}>
-
-                {item}
-              </a>
+            <li
+              key={item}
+              className={`flex-1 text-center text-xl font-bold font-sans`}
+            >
+              <a href={"#" + item}>{item}</a>
             </li>
           ))}
         </ul>
