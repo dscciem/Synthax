@@ -32,7 +32,7 @@ function Speaker() {
                                 <p>{speaker_detail.position}</p>
                                 <div className="Speakers__social-media">
                                     <a
-                                        href=""
+                                        href={speaker_detail.linkedinUrl}
                                         alt="Dummy Linkedin"
                                     >
                                         <img
@@ -41,7 +41,7 @@ function Speaker() {
                                             className="Speakers__linkedin"
                                         ></img>
                                     </a>
-                                    <a href="">
+                                    <a href={speaker_detail.githubUrl}>
                                         <img
                                             src={github}
                                             alt="Dummy Github"
