@@ -1,7 +1,7 @@
 import React from 'react'
 import linkedin from './images/linkedin.png'
 import github from './images/github.png'
-import Speaker_data from './Team.json'
+import Speaker_data from './Speaker.json'
 import './Speaker.css'
 
 function Speaker() {
