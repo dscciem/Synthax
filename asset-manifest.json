@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Synthax/static/css/main.5a51b5eb.chunk.css",
+    "main.js": "/Synthax/static/js/main.927dc331.chunk.js",
+    "main.js.map": "/Synthax/static/js/main.927dc331.chunk.js.map",
+    "runtime-main.js": "/Synthax/static/js/runtime-main.e61c53b5.js",
+    "runtime-main.js.map": "/Synthax/static/js/runtime-main.e61c53b5.js.map",
+    "static/js/2.81a69b50.chunk.js": "/Synthax/static/js/2.81a69b50.chunk.js",
+    "static/js/2.81a69b50.chunk.js.map": "/Synthax/static/js/2.81a69b50.chunk.js.map",
+    "index.html": "/Synthax/index.html",
+    "static/css/main.5a51b5eb.chunk.css.map": "/Synthax/static/css/main.5a51b5eb.chunk.css.map",
+    "static/js/2.81a69b50.chunk.js.LICENSE.txt": "/Synthax/static/js/2.81a69b50.chunk.js.LICENSE.txt",
+    "static/media/Arrow.76bc37b6.svg": "/Synthax/static/media/Arrow.76bc37b6.svg",
+    "static/media/Footer.css": "/Synthax/static/media/Background.b9f0a627.svg",
+    "static/media/Discord.d4ef47fb.svg": "/Synthax/static/media/Discord.d4ef47fb.svg",
+    "static/media/Hero.0653e918.svg": "/Synthax/static/media/Hero.0653e918.svg",
+    "static/media/Instagram.9fdd19ed.svg": "/Synthax/static/media/Instagram.9fdd19ed.svg",
+    "static/media/LinkedIn.7379133b.svg": "/Synthax/static/media/LinkedIn.7379133b.svg",
+    "static/media/Logo.8f370d46.svg": "/Synthax/static/media/Logo.8f370d46.svg",
+    "static/media/Logo.f12c8756.png": "/Synthax/static/media/Logo.f12c8756.png",
+    "static/media/ToggleIcon.d0f719e1.svg": "/Synthax/static/media/ToggleIcon.d0f719e1.svg",
+    "static/media/Twitter.1030a794.svg": "/Synthax/static/media/Twitter.1030a794.svg",
+    "static/media/banner.6437e1f3.svg": "/Synthax/static/media/banner.6437e1f3.svg",
+    "static/media/About.css": "/Synthax/static/media/gdsc.9dcd62c2.svg",
+    "static/media/github.76a78232.svg": "/Synthax/static/media/github.76a78232.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e61c53b5.js",
+    "static/js/2.81a69b50.chunk.js",
+    "static/css/main.5a51b5eb.chunk.css",
+    "static/js/main.927dc331.chunk.js"
+  ]
+}
