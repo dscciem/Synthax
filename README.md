@@ -18,7 +18,8 @@
         contribute and enhance them further. Are you someone with no prior
         knowledge in open source development? Fear not! This can be the perfect
         point to start. Take your novel steps in the open source journey by
-        taking part in Synthax 2.0.</p>
+        taking part in Synthax 2.0.
+</p>
         
 ## Contributors ✨
 
