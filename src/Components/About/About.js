@@ -8,7 +8,7 @@ const About = () => {
       <Heading title="About" lineWidth="1/5" />
       <p
         className="font-semibold text-xl mx-auto text-center py-20"
-        style={{ width: "70%" }}
+        style={{ width: "70%", margin: "166px auto" }}
       >
         Synthax 2.0 is an open source coding program, introduced in CIEM from
         the year 2020. This program is held exclusively for the students of

@@ -4,7 +4,7 @@ import Heading from "../Heading/Heading";
 
 function Timeline() {
   return (
-    <section>
+    <section style={{ backgroundColor: "#f9f9f9" }}>
       <Heading title="Timeline" lineWidth="1/3" />
       <div className="text-white py-8">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
