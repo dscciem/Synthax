@@ -12,7 +12,7 @@ const Faq = () => {
 
         <div className="faq__wrapper">
           {FAQ.map(({ q, a }) => (
-            <Accordion question={q} answer={a} />
+            <Accordion question={q} answer={a} key={q} />
           ))}
         </div>
       </div>

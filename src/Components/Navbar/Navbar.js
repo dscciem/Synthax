@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [nav, setNav] = useState("");
+  const [nav, setNav] = useState("bg-gray-light text-brown-light");
   const navItems = ["Home", "Projects", "Prizes", "Sponsors", "FAQs"];
   const controlNavbar = () => {
     window.scrollY > 100
