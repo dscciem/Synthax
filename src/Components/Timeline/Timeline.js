@@ -57,7 +57,7 @@ function Timeline() {
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
                       Call for Project Admins, If you have existing projects or
-                      have particular project idea in mind (website, app, etc.),
+                      have particular project idea in mind (website, app, etc),
                       then this is the perfect opportunity for you to get it
                       built while also helping numerous students in turn.
                     </p>
