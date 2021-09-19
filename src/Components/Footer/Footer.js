@@ -1,17 +1,17 @@
 import React from "react";
 import "./Footer.css";
-import Logo from "./Logo.png";
+import Logo from "./assets/Logo.png";
 import Social from "../Social/Social";
 
 const Footer = () => {
   const navItems = ["Home", "Projects", "Prizes", "Sponsors", "FAQs"];
   return (
     <footer
-      className="h-auto grid grid-cols-12 grid-flow-row items-center pt-6 bg-gray-light"
+      className="h-auto grid grid-cols-12 grid-flow-row items-center pt-6 bg-gray-light relative"
       id="Footer"
     >
       <div
-        className="col-span-8 grid grid-cols-3 grid-flow-row self-start"
+        className="col-span-8 grid grid-cols-3 grid-rows-4 grid-flow-row self-start"
         style={{ marginTop: "100px" }}
       >
         {navItems.map((item) => (
@@ -22,11 +22,7 @@ const Footer = () => {
             {item}
           </div>
         ))}
-        <p
-          className="col-span-3"
-          id="copyright"
-          style={{ marginTop: "-140px" }}
-        >
+        <p className="col-span-3 absolute bottom-0 py-5 px-3" id="copyright">
           Copyright © 2021 GDSC-CIEM. All rights reserved.
         </p>
       </div>

@@ -1,18 +1,13 @@
-#Footer {
-  background-image: url("./Background.svg");
-  background-position: left;
-  background-position-y: 5ch;
-  background-size: contain;
-  background-repeat: no-repeat;
+@media (min-width: 768px) {
+  #Footer {
+    background-image: url("./assets/Background.svg");
+    background-position: left;
+    background-position-y: 5ch;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }
 
 #socials {
   padding-bottom: 15px;
-}
-
-#copyright {
-  position: relative;
-  top: 17rem;
-  padding-left: 1rem;
-  font-weight: 600;
 }
