@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "./Arrow.svg";
+import Arrow from "./assets/Arrow.svg";
 import { useState } from "react";
 import "./Accordion.css";
 

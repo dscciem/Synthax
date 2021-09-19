@@ -10,13 +10,17 @@ const Banner = () => {
         <div className="flex flex-1 flex-col md:flex-row mt-10">
           <a
             href="https://forms.gle/E5u7VR8KRsJYy5FW9"
+            rel="noreferrer"
+            target="_blank"
             className="text-white-light bg-brown-light md:mx-2 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl"
           >
             <span className="px-4 p-2">Register as Project Admin</span>
           </a>
           <a
             href="https://forms.gle/FctTve5qRJgqEVWb9"
-            className="text-black-light bg-white mx-2 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl"
+            rel="noreferrer"
+            target="_blank"
+            className="text-black-light bg-white mx-2 mt-4 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl"
           >
             <span className="px-4 p-2">Register as Participant</span>
           </a>

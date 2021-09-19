@@ -5,7 +5,7 @@ import Heading from "../Heading/Heading";
 function Timeline() {
   return (
     <section style={{ backgroundColor: "#f9f9f9" }}>
-      <Heading title="Timeline" lineWidth="1/3" />
+      <Heading title="Timeline" lineWidth="20rem" />
       <div className="text-white py-8">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
@@ -17,7 +17,9 @@ function Timeline() {
               steps to know the exact process of the event. If any queries
             </p>
             <a
-              href="#"
+              href="https://discord.gg/7b6Q5TNt3h"
+              rel="noreferrer"
+              target="_blank"
               className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-2 border border-yellow-300 hover:border-transparent"
               style={{ display: "flex" }}
             >

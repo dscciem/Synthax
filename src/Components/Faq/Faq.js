@@ -8,7 +8,7 @@ const Faq = () => {
   return (
     <section className="faq__main_container py-12" id="FAQs">
       <div className="faq__container">
-        <Heading title="FAQs" lineWidth="1/5" />
+        <Heading title="FAQs" lineWidth="20rem" />
 
         <div className="faq__wrapper">
           {FAQ.map(({ q, a }) => (
