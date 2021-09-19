@@ -2,15 +2,13 @@ import React from "react";
 import "./Faq.css";
 import Accordion from "../Accordion/Accordion";
 import FAQ from "./faq.json";
+import Heading from "../Heading/Heading";
 
 const Faq = () => {
   return (
-    <section className="faq__main_container" id="FAQs">
+    <section className="faq__main_container py-12" id="FAQs">
       <div className="faq__container">
-        <div className="faq__heading">
-          <h2>FAQs</h2>
-          <hr className="faq__line"></hr>
-        </div>
+        <Heading title="FAQs" lineWidth="1/5" />
 
         <div className="faq__wrapper">
           {FAQ.map(({ q, a }) => (

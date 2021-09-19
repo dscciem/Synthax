@@ -3,12 +3,9 @@
   background-color: #f9cf90;
   border: 1px solid #f9cf90;
   border-bottom-width: 0px;
-  color: black;
-  cursor: pointer;
   transition: background 0.2s;
-  padding: 2.5rem;
-  position: relative;
-  z-index: 2;
+  display: flex;
+  justify-content: space-between;
 }
 
 .faq__accordion__content > p {
@@ -21,17 +18,5 @@
 }
 
 .faq__arrow {
-  position: absolute;
-  height: 30px;
-  margin-top: -4px;
-  top: 50%;
-  right: 40px;
-  width: 2.5rem;
-}
-
-.faq__accordion__content {
-  background-color: white;
-  border: 1px solid rgb(241, 195, 69);
-  border-width: 0px 1px;
-  padding: 20px;
+  padding: 1rem 1rem;
 }

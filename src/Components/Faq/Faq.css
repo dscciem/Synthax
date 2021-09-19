@@ -44,15 +44,6 @@
   color: white;
 }
 
-.faq__arrow {
-  position: absolute;
-  height: 30px;
-  margin-top: -4px;
-  top: 50%;
-  right: 40px;
-  width: 2.5rem;
-}
-
 .faq__accordion__content {
   background-color: white;
   border: 1px solid rgb(241, 195, 69);
