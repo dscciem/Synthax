@@ -50,7 +50,7 @@ function Timeline() {
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
                     <p className="mb-3 text-base text-yellow-300">
-                      19-29 September, 2021
+                      20-29 September, 2021
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Registration
