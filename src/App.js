@@ -15,7 +15,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/projects">{/* Project Component goes here */}</Route>
+          <Route path="/projects">
+              {/* Project Component goes here */}
+          </Route>
         </Switch>
         <Switch>
           <Route path="/">
