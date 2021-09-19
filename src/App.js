@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/projects">
-              {/* Project Component */}
+              {/* Project Component goes here */}
           </Route>
         </Switch>
         <Switch>
