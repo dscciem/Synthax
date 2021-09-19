@@ -56,9 +56,10 @@ function Timeline() {
                       Registration
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      Project Admin Registration Pick your favourite event(s)
-                      and register in that event by filling the form
-                      corresponding to that event. Its that easy :)
+                      Call for Project Admins, If you have existing projects or
+                      have particular project idea in mind (website, app, etc.),
+                      then this is the perfect opportunity for you to get it
+                      built while also helping numerous students in turn.
                     </p>
                   </div>
                 </div>
@@ -72,10 +73,10 @@ function Timeline() {
                       Participation
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      Project Contributors registration, Participate online. The
-                      links for your registered events will be sent to you via
-                      email and whatsapp groups. Use those links and show your
-                      talent.
+                      Call for Project Contributors, If you have basic git
+                      skills or are first timers or even veteran developers,
+                      Synthax 2.0 would be a perfect opportunity to get a taste
+                      of contributing in a open source projects.
                     </p>
                   </div>
                 </div>
@@ -83,16 +84,18 @@ function Timeline() {
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
                     <p className="mb-3 text-base text-yellow-300">
-                      {" "}
                       27 September - 30 October, 2021
                     </p>
                     <h4 className="mb-3 font-bold text-lg md:text-2xl">
                       Event Duration
                     </h4>
                     <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
-                      The ultimate genius will be revealed by our judging panel
-                      on 10th May, 2021 and the resukts will be announced on the
-                      whatsapp groups and will be mailed to you.
+                      Synthax aims to bring students into the world of open
+                      source development and see the power of unified
+                      problem-solving in real time. The projects that we will
+                      host have been carefully hand-picked to invigorate
+                      creative thinking and encourage collaboration among all
+                      participants.
                     </p>
                   </div>
                 </div>
