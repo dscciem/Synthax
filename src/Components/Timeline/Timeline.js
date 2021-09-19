@@ -5,9 +5,8 @@ import Heading from "../Heading/Heading";
 function Timeline() {
   return (
     <section>
-      <div className="bg-black text-white py-8">
-        <h2 className="text-center text-6xl text-brown-light">Timeline</h2>
-        <hr className="w-1/5 bg-yellow-light my-3 border-yellow-light border-2 ml-auto mr-auto" />
+      <Heading title="Timeline" lineWidth="1/3" />
+      <div className="text-white py-8">
         <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
           <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">

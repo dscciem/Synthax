@@ -4,8 +4,8 @@ import BannerImage from "./assets/banner.svg";
 
 const Banner = () => {
   return (
-    <section className="grid grid-cols-2 grid-flow-col py-24 bg-gray-light place-items-center">
-      <div className="col-span-1 self-start flex flex-col justify-start items-center">
+    <section className="grid grid-cols-1 md:grid-cols-2 grid-flow-col py-24 bg-gray-light place-items-center">
+      <div className="col-span-1 self-start flex flex-col items-center">
         <img src={BannerImage} alt="" width="70%" />
         <div className="flex flex-1 mt-10">
           <button class="text-white-light bg-brown-light mx-2 font-semibold py-2 px-10 rounded-full inline-flex items-center shadow-xl">
@@ -16,7 +16,7 @@ const Banner = () => {
           </button>
         </div>
       </div>
-      <div className="col-span-1">
+      <div className="col-span-1 hidden md:inline">
         <img src={Hero} alt="" />
       </div>
     </section>

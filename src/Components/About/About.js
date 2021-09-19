@@ -4,11 +4,11 @@ import Heading from "../Heading/Heading";
 
 const About = () => {
   return (
-    <section className="h-screen bg-gray-light" id="About">
+    <section className="min-h-screen bg-gray-light" id="About">
       <Heading title="About" lineWidth="1/5" />
       <p
-        className="px-28 font-semibold text-xl text-center mt-48"
-        style={{ width: "70%", margin: "216px auto" }}
+        className="font-semibold text-xl mx-auto text-center py-20"
+        style={{ width: "70%" }}
       >
         Synthax 2.0 is an open source coding program, introduced in CIEM from
         the year 2020. This program is held exclusively for the students of
