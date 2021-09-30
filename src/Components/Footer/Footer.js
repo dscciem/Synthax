@@ -16,7 +16,7 @@ const Footer = () => {
       >
         {navItems.map((item) => (
           <div
-            className="py-5 text-brown-light font-bold text-center text-lg"
+            className="py-5 text-brown-light font-bold text-left md:mx-auto mr-auto px-5 text-sm md:text-lg "
             key={item}
           >
             {item}
@@ -26,10 +26,11 @@ const Footer = () => {
           Copyright © 2021 GDSC-CIEM. All rights reserved.
         </p>
       </div>
-      <div className="col-span-4 grid grid-rows-2 place-items-end"
+      <div
+        className="col-span-4 grid grid-rows-2 place-items-end"
         style={{
           position: "relative",
-          right: "2rem"
+          right: "2rem",
         }}
       >
         <img
