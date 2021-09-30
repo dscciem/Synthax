@@ -6,7 +6,7 @@ import Heading from "../Heading/Heading";
 
 const Faq = () => {
   return (
-    <section className="faq__main_container py-12" id="FAQs">
+    <section className="faq__main_container py-12" id="FAQs" style={{ overflow: "hidden" }}>
       <div className="faq__container">
         <Heading title="FAQs" lineWidth="20rem" />
 

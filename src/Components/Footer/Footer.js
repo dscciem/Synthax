@@ -26,7 +26,12 @@ const Footer = () => {
           Copyright © 2021 GDSC-CIEM. All rights reserved.
         </p>
       </div>
-      <div className="col-span-4 grid grid-rows-2 place-items-end">
+      <div className="col-span-4 grid grid-rows-2 place-items-end"
+        style={{
+          position: "relative",
+          right: "2rem"
+        }}
+      >
         <img
           src={Logo}
           alt=""
