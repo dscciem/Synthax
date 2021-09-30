@@ -30,6 +30,6 @@ A Big Thanks to these these wonderful people. 💜<br/>
 
 
 <p>
-  <img src="https://img.shields.io/badge/gdscciem%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>  <img src="https://img.shields.io/badge/dscciem%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/> <img src="https://img.shields.io/badge/dscciem7%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>  
+  <img src="https://img.shields.io/badge/gdscciem%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>  <img src="https://img.shields.io/badge/dscciem%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/> <img src="https://img.shields.io/badge/dscciem%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>  
 
 
