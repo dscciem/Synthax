@@ -22,13 +22,12 @@ const About = () => {
         spectrum of knowledge. You can choose to work on any project that
         interests you and learn along the way. Projects will be curated from
         CIEM students only. If you have a project you would like to showcase,
-        now’s the time. Fill out the application forms (will be released
-        shortly), and we will select the best projects for contribution in
-        Synthax 2.0. These are the projects on which our participants will
-        contribute and enhance them further. Are you someone with no prior
-        knowledge in open source development? Fear not! This can be the perfect
-        point to start. Take your novel steps in the open source journey by
-        taking part in Synthax 2.0.
+        now’s the time. Fill out the application forms, and we will select
+        the best projects for contribution in Synthax 2.0. These are the
+        projects on which our participants will contribute and enhance them further.
+        Are you someone with no prior knowledge in open source development?
+        Fear not! This can be the perfect point to start. Take your novel steps
+        in the open source journey by taking part in Synthax 2.0.
       </p>
     </section>
   );

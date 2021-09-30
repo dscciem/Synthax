@@ -5,7 +5,7 @@ import TeamDetails from "./Team.json";
 
 const Teams = () => {
   return (
-    <section className="bg-gray-light" id="Teams">
+    <section className="bg-gray-light" id="Teams" style={{ overflow: "hidden" }}>
       <div style={{ paddingTop: "30px" }}>
         <Heading title="Organizing Team" lineWidth="40rem" />
         <div className="grid sm:grid-cols-1 md:grid-cols-5 gap-4 grid-flow-row px-8 py-10 place-items-center">
