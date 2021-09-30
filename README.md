@@ -1,4 +1,5 @@
 ![Synthax](https://socialify.git.ci/dscciem/Synthax/image?description=1&font=Raleway&forks=1&issues=1&language=1&owner=1&pulls=1&stargazers=1&theme=Light)
+
 <h1 align="center">📃 About Synthax 2.0</h1>
 <p align="center">  Synthax 2.0 is an open source coding program, introduced in CIEM from
         the year 2020. This program is held exclusively for the students of
@@ -26,5 +27,9 @@
 A Big Thanks to these these wonderful people. 💜<br/>
 
 <img src="https://contrib.rocks/image?repo=dscciem/Synthax" />
+
+
+<p>
+  <img src="https://img.shields.io/badge/gdscciem%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>  <img src="https://img.shields.io/badge/dscciem%20-%231DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white"/> <img src="https://img.shields.io/badge/dscciem7%20-%23E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white"/>  
 
 
