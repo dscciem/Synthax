@@ -38,7 +38,7 @@
   {
     "name": "Coders-Community",
     "techStack": "HTML, CSS, JAVASCRIPT",
-    "repoLink": "",
+    "repoLink": "https://github.com/Coders-Community/Coders-Community",
     "descr": "A community for all the Enthusiastic Coder's around the Globe"
   },
   {
@@ -46,5 +46,41 @@
     "techStack": "React JS",
     "repoLink": "https://github.com/abhishek-max/SmallTalk.git",
     "descr": "It's a mobile application of news. "
+  },
+  {
+    "name": "Recess",
+    "techStack": "React JS, Firebase",
+    "repoLink": "https://github.com/avinashkranjan/Recess",
+    "descr": "A Social Media Platform for students to share their experience/knowledge they gained in their free time"
+  },
+  {
+    "name": "lifeMEDeasy",
+    "techStack": "React JS, Django",
+    "repoLink": "https://github.com/avinashkranjan/lifeMEDeasy",
+    "descr": "Automating Healthcare and making Health facilities available to everyone regardless of their limitations"
+  },
+  {
+    "name": "Amazing-Python-Scripts",
+    "techStack": "Python, Machine Learning",
+    "repoLink": "https://github.com/avinashkranjan/Amazing-Python-Scripts",
+    "descr": "Curated collection of Amazing Python scripts from Basics to Advance with automation task scripts."
+  },
+  {
+    "name": "e-bureau",
+    "techStack": "Next JS, MongoDB Atlas",
+    "repoLink": "https://github.com/geekymeeky/e-bureau",
+    "descr": "E- platform used by both public and police for making Crime Management easier. Includes general diary, crime reports and reporting of missing person."
+  },
+  {
+    "name": "JS-games",
+    "techStack": "JavaScript, HTML, CSS",
+    "repoLink": "https://github.com/geekymeeky/JS-games",
+    "descr": "A curated collection of games made with javascript and integrated by a web UI."
+  },
+  {
+    "name": "Chitchat",
+    "techStack": "Dart, Flutter",
+    "repoLink": "https://github.com/geekymeeky/chitchat",
+    "descr": "A chat Application"
   }
 ]
