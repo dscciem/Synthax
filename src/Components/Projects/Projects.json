@@ -1,7 +1,7 @@
 [
   {
     "name": "Finadict",
-    "techStack": "Python, Streamlit, FB Prophet, Heroku, Git",
+    "techStack": "Python, Streamlit, FB Prophet, Git, Docker",
     "repoLink": "https://github.com/subhayu99/finadict",
     "descr": "Webapp to predict stock, cryptocurrency, forex prices."
   },
