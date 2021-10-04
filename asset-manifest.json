@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Synthax/static/css/main.b8419f03.chunk.css",
-    "main.js": "/Synthax/static/js/main.7ce0c5b3.chunk.js",
-    "main.js.map": "/Synthax/static/js/main.7ce0c5b3.chunk.js.map",
+    "main.css": "/Synthax/static/css/main.1eba57af.chunk.css",
+    "main.js": "/Synthax/static/js/main.c76e921f.chunk.js",
+    "main.js.map": "/Synthax/static/js/main.c76e921f.chunk.js.map",
     "runtime-main.js": "/Synthax/static/js/runtime-main.e61c53b5.js",
     "runtime-main.js.map": "/Synthax/static/js/runtime-main.e61c53b5.js.map",
-    "static/js/2.81a69b50.chunk.js": "/Synthax/static/js/2.81a69b50.chunk.js",
-    "static/js/2.81a69b50.chunk.js.map": "/Synthax/static/js/2.81a69b50.chunk.js.map",
+    "static/js/2.70811b30.chunk.js": "/Synthax/static/js/2.70811b30.chunk.js",
+    "static/js/2.70811b30.chunk.js.map": "/Synthax/static/js/2.70811b30.chunk.js.map",
     "index.html": "/Synthax/index.html",
-    "static/css/main.b8419f03.chunk.css.map": "/Synthax/static/css/main.b8419f03.chunk.css.map",
-    "static/js/2.81a69b50.chunk.js.LICENSE.txt": "/Synthax/static/js/2.81a69b50.chunk.js.LICENSE.txt",
+    "static/css/main.1eba57af.chunk.css.map": "/Synthax/static/css/main.1eba57af.chunk.css.map",
+    "static/js/2.70811b30.chunk.js.LICENSE.txt": "/Synthax/static/js/2.70811b30.chunk.js.LICENSE.txt",
     "static/media/Arrow.76bc37b6.svg": "/Synthax/static/media/Arrow.76bc37b6.svg",
     "static/media/Footer.css": "/Synthax/static/media/Background.b9f0a627.svg",
     "static/media/Discord.d4ef47fb.svg": "/Synthax/static/media/Discord.d4ef47fb.svg",
@@ -22,12 +22,14 @@
     "static/media/Twitter.1030a794.svg": "/Synthax/static/media/Twitter.1030a794.svg",
     "static/media/banner.6437e1f3.svg": "/Synthax/static/media/banner.6437e1f3.svg",
     "static/media/About.css": "/Synthax/static/media/gdsc.9dcd62c2.svg",
-    "static/media/github.76a78232.svg": "/Synthax/static/media/github.76a78232.svg"
+    "static/media/github.76a78232.svg": "/Synthax/static/media/github.76a78232.svg",
+    "static/media/project.d099de07.svg": "/Synthax/static/media/project.d099de07.svg",
+    "static/media/search.683155f3.svg": "/Synthax/static/media/search.683155f3.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e61c53b5.js",
-    "static/js/2.81a69b50.chunk.js",
-    "static/css/main.b8419f03.chunk.css",
-    "static/js/main.7ce0c5b3.chunk.js"
+    "static/js/2.70811b30.chunk.js",
+    "static/css/main.1eba57af.chunk.css",
+    "static/js/main.c76e921f.chunk.js"
   ]
 }
