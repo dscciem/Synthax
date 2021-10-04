@@ -25,13 +25,13 @@ const Navbar = () => {
   const getPath = (page) => {
     switch (page) {
       case "Home":
-        return "/";
+        return "/Synthax";
 
       case "Projects":
         return "/Projects";
 
       default:
-        return `/#${page}`;
+        return `/Synthax/#${page}`;
     }
   };
 

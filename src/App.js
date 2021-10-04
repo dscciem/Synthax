@@ -21,7 +21,7 @@ function App() {
           </Route>
         </Switch>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/Synthax">
             <Banner />
             <About />
             <Timeline />
