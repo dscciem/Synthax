@@ -31,7 +31,7 @@ const Navbar = () => {
         return "/Projects";
 
       default:
-        return `/#${page}`;
+        return `/Synthax/#${page}`;
     }
   };
 
