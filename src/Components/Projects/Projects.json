@@ -3,19 +3,19 @@
     "name": "Finadict",
     "techStack": "Python, Streamlit, FB Prophet, Heroku, Git",
     "repoLink": "https://github.com/subhayu99/finadict",
-    "descr": "Basically, the project is a Webapp to predict the next day's stock / cryptocurrency / forex prices. It is created solely in Python, using Streamlit as a frontend library and FB Prophet to fit the Time-Series data and predict the next day prices. All the historical data is fetched using the yfinance API. I am adding this project on Synthax because I need help in modifying the app in both the Frontend and the ML aspect."
+    "descr": "Webapp to predict stock, cryptocurrency, forex prices."
   },
   {
     "name": " Weather-JS",
     "techStack": "HTML, CSS, JavaScript, API, JSON",
     "repoLink": "https://github.com/DeepNinja07x/Weather-JS",
-    "descr": "It's a web based weather app made using HTML5, CSS3, and JavaScript that sends HTTP request to Openweather.org API to get back the JSON response of the weather of the User-given city and is displayed properly using CSS."
+    "descr": "Weather app that uses Openweathermap API to fetch the weather of a city."
   },
   {
     "name": "PyScripts",
     "techStack": "Python",
     "repoLink": "https://github.com/subhayu99/PyScripts",
-    "descr": "The project consists of several python scripts made to introduce beginners into the world of coding and Open Source contribution. I built this project during Synthax v1.0 in 2020 and I want this project to continue its legacy like last time."
+    "descr": "Consists of several python scripts made to introduce beginners into the world of coding and Open Source contribution."
   },
   {
     "name": "Amazing Web Projects",
@@ -69,7 +69,7 @@
     "name": "e-bureau",
     "techStack": "Next JS, MongoDB Atlas",
     "repoLink": "https://github.com/geekymeeky/e-bureau",
-    "descr": "E- platform used by both public and police for making Crime Management easier. Includes general diary, crime reports and reporting of missing person."
+    "descr": "E- platform for making Crime Management easier. Includes GD, crime reports and reporting of missing person."
   },
   {
     "name": "JS-games",

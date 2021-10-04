@@ -8,6 +8,7 @@ import Timeline from "./Components/Timeline/Timeline";
 import About from "./Components/About/About";
 import Faq from "./Components/Faq/Faq";
 import Footer from "./Components/Footer/Footer";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -15,12 +16,12 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/projects">
-              {/* Project Component goes here */}
+          <Route path="/Projects">
+            <Projects />
           </Route>
         </Switch>
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <Banner />
             <About />
             <Timeline />

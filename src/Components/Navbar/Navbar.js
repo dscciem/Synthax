@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import ToggleIcon from "./assets/ToggleIcon.svg";
 import Logo from "./assets/Logo.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState("bg-gray-light text-brown-light");
@@ -20,6 +21,19 @@ const Navbar = () => {
       window.removeEventListener("scroll", listener);
     };
   }, []);
+
+  const getPath = (page) => {
+    switch (page) {
+      case "Home":
+        return "/";
+
+      case "Projects":
+        return "/Projects";
+
+      default:
+        return `/#${page}`;
+    }
+  };
 
   return (
     <div className={`p-5 w-screen fixed ${nav}`} style={{ zIndex: "1" }}>
@@ -49,7 +63,11 @@ const Navbar = () => {
                 key={item}
                 className={`flex-1 text-center text-xl font-bold py-3 md:p-0 font-sans`}
               >
-                <a href={"#" + item}>{item}</a>
+                {item === "Projects" || item === "Home" ? (
+                  <Link to={getPath(item)}>{item}</Link>
+                ) : (
+                  <a href={getPath(item)}>{item}</a>
+                )}
               </li>
             ))}
           </ul>
